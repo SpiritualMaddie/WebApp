@@ -25,7 +25,7 @@ namespace TestProject1
             // Arrange
             Numbers num = new Numbers();
             var actual = num.Add(11, 12);
-            var expected = 22;
+            var expected = 23;
 
             // Act
             Assert.AreEqual(expected, actual);
